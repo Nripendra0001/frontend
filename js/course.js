@@ -233,8 +233,8 @@ function playVideo(id, el, title){
 
   player.src = "https://www.youtube.com/embed/" + id +
     "?autoplay=1" +
-    "&mute=1" +               // autoplay allow
-    "&controls=1" +           // 🔥 controls back (sound + timeline)
+    "&mute=0" +              // ✅ sound ON
+    "&controls=1" +
     "&rel=0" +
     "&modestbranding=1" +
     "&iv_load_policy=3" +
@@ -242,4 +242,5 @@ function playVideo(id, el, title){
 
   videoTitle.innerText = title;
 }
+
 
