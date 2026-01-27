@@ -1503,6 +1503,18 @@ body.dark .playlist-hub .exam-result{
   color:#22d3ee;
   letter-spacing:.5px;
 }
+.site-logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:800;
+  font-size:20px;
+}
+
+.site-logo img{
+  height:34px;
+}
+
 
 
 
