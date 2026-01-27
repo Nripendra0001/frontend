@@ -144,11 +144,14 @@ const courses = [
 
 /* ========= DOM ========= */
 
+/* ========= DOM ========= */
+
 const courseButtons = document.getElementById("courseButtons");
 const subjectArea = document.getElementById("subjectArea");
 const player = document.getElementById("videoPlayer");
 const videoTitle = document.getElementById("videoTitle");
 
+let currentCourse = null;
 
 /* LOAD COURSES */
 courses.forEach((c)=>{
@@ -160,52 +163,70 @@ courses.forEach((c)=>{
 });
 
 
-/* SELECT COURSE */
+/* ========== STEP 1: SELECT COURSE → SHOW SUBJECTS ONLY ========== */
 function selectCourse(course,btn){
+
+  currentCourse = course;
 
   document.querySelectorAll(".course-btn")
     .forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
 
-  subjectArea.innerHTML="";
-  player.src="";
-  videoTitle.innerText=course.name+" course";
+  subjectArea.innerHTML = "";
+  videoTitle.innerText = course.name+" course";
 
   for(let sub in course.subjects){
-
-    const box=document.createElement("div");
-    box.className="subject-box";
-
-    const title=document.createElement("div");
+    const title = document.createElement("div");
     title.className="subject-title";
     title.innerText="📘 "+sub;
 
-    const videos=document.createElement("div");
-    videos.className="video-grid hide";
+    title.onclick = ()=>showTopics(sub);
 
-    course.subjects[sub].forEach(v=>{
-      const card=document.createElement("div");
-      card.className="video-card";
-      card.innerHTML=`▶ <b>${v.title}</b><br><span>Click to watch</span>`;
-      card.onclick=()=>playVideo(v.id,card,v.title);
-      videos.appendChild(card);
-    });
-
-    title.onclick=()=>{
-      document.querySelectorAll(".video-grid")
-        .forEach(g=>{ if(g!==videos) g.classList.add("hide"); });
-      videos.classList.toggle("hide");
-    };
-
-    box.appendChild(title);
-    box.appendChild(videos);
-    subjectArea.appendChild(box);
+    subjectArea.appendChild(title);
   }
 }
 
 
-/* PLAY VIDEO */
+/* ========== STEP 2: SUBJECT CLICK → SHOW TOPICS ONLY ========== */
+function showTopics(subject){
+
+  subjectArea.innerHTML = "";
+
+  // Back button
+  const back = document.createElement("div");
+  back.className="subject-title";
+  back.innerText="⬅ Back to subjects";
+  back.onclick=()=>selectCourse(currentCourse,
+    document.querySelector(".course-btn.active")
+  );
+
+  subjectArea.appendChild(back);
+
+  // Subject heading
+  const heading = document.createElement("div");
+  heading.className="subject-title";
+  heading.innerText="📘 "+subject;
+  subjectArea.appendChild(heading);
+
+  // Topics
+  const videos = document.createElement("div");
+  videos.className="video-grid";
+
+  currentCourse.subjects[subject].forEach(v=>{
+    const card=document.createElement("div");
+    card.className="video-card";
+    card.innerHTML=`▶ <b>${v.title}</b>`;
+    card.onclick=()=>playVideo(v.id,card,v.title);
+    videos.appendChild(card);
+  });
+
+  subjectArea.appendChild(videos);
+}
+
+
+/* ========== STEP 3: PLAY VIDEO (RIGHT FIXED) ========== */
 function playVideo(id,el,title){
+
   document.querySelectorAll(".video-card")
     .forEach(v=>v.classList.remove("active"));
   el.classList.add("active");
