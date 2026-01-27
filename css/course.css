@@ -1,0 +1,153 @@
+body{
+  margin:0;
+  font-family:Poppins,Arial,sans-serif;
+  background:#020617;
+  color:white;
+}
+
+/* ===============================
+   MAIN LAYOUT
+================================ */
+.course-app{
+  display:grid;
+  grid-template-columns:260px 1fr;
+  min-height:100vh;
+}
+
+/* ===============================
+   LEFT PANEL
+================================ */
+.course-left{
+  background:#020617;
+  border-right:1px solid #1e293b;
+  padding:14px 12px;
+  display:flex;
+  flex-direction:column;
+}
+
+.course-left h2{
+  margin:4px 0 10px;
+  font-size:18px;
+  text-align:center;
+  color:#38bdf8;
+  font-weight:800;
+}
+
+/* TOP BUTTONS */
+.course-btn{
+  border:1px solid #1e293b;
+  padding:10px;
+  border-radius:10px;
+  margin-bottom:10px;
+  cursor:pointer;
+  transition:.25s;
+  font-size:13px;
+  font-weight:600;
+  text-align:center;
+  background:#020617;
+}
+.course-btn:hover{
+  border-color:#38bdf8;
+  background:#020617;
+}
+.course-btn.active{
+  border-color:#22d3ee;
+  box-shadow:0 0 0 1px #22d3ee;
+  background:#020617;
+}
+
+/* SUBJECT + TOPIC SCROLL AREA */
+.left-subject-area{
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid #1e293b;
+  overflow-y:auto;
+  flex:1;
+}
+
+/* SUBJECT */
+.subject-box{
+  margin-bottom:16px;
+}
+.subject-title{
+  font-size:13px;
+  font-weight:800;
+  margin:10px 0 6px;
+  color:#38bdf8;
+  letter-spacing:.3px;
+}
+
+/* TOPIC LIST */
+.video-grid{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.video-card{
+  background:#020617;
+  border:1px solid #1e293b;
+  padding:9px 10px;
+  border-radius:9px;
+  cursor:pointer;
+  font-size:12px;
+  font-weight:600;
+  transition:.25s;
+}
+.video-card:hover{
+  border-color:#38bdf8;
+  transform:translateX(4px);
+}
+.video-card.active{
+  border-color:#22d3ee;
+  box-shadow:0 0 0 1px #22d3ee;
+  background:#020617;
+}
+
+/* ===============================
+   RIGHT PANEL
+================================ */
+.course-right{
+  padding:18px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:10px;
+}
+
+/* VIDEO PLAYER */
+.player-box{
+  width:100%;
+  max-width:980px;
+  aspect-ratio:16/9;
+  background:black;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 12px 35px #0009;
+}
+.player-box iframe{
+  width:100%;
+  height:100%;
+  border:none;
+}
+
+/* VIDEO TITLE */
+#videoTitle{
+  margin:10px 0 2px;
+  font-size:17px;
+  font-weight:700;
+  color:#e5e7eb;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media(max-width:900px){
+  .course-app{
+    grid-template-columns:1fr;
+  }
+  .course-left{
+    border-right:none;
+    border-bottom:1px solid #1e293b;
+  }
+}

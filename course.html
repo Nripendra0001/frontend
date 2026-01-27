@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SarkariNext Courses</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./css/course.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="course-app">
+
+  <!-- ========== LEFT SIDE (COURSES + SUBJECTS + VIDEOS) ========== -->
+  <aside class="course-left">
+
+    <h2>🎓 Courses</h2>
+    <div id="courseButtons"></div>
+
+    <!-- SUBJECTS + VIDEOS WILL LOAD HERE -->
+    <div id="subjectArea" class="left-subject-area">
+      👉 Select a course to see subjects & videos
+    </div>
+
+  </aside>
+
+  <!-- ========== RIGHT SIDE (VIDEO PLAYER) ========== -->
+  <main class="course-right">
+
+    <div class="player-box">
+      <iframe id="videoPlayer" allowfullscreen></iframe>
+    </div>
+
+    <h3 id="videoTitle">Select a video to start learning</h3>
+
+  </main>
+
+</div>
+
+<script src="./js/course.js"></script>
+</body>
+</html>
