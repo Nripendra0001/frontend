@@ -5,39 +5,36 @@
 <title>SarkariNext Courses</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="./css/course.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="./css/course.css">
+</head>
 <body>
 
 <div class="course-app">
 
-  <!-- ========== LEFT SIDE ========== -->
-  <aside class="course-left">
+  <!-- LEFT -->
+  <div class="course-left">
+    <h2>⚡ SarkariNext</h2>
 
-    <h2>🎓 SarkariNext Courses</h2>
-
-    <!-- COURSE BUTTONS -->
     <div id="courseButtons"></div>
 
-    <!-- SUBJECTS / TOPICS AREA -->
-    <div id="subjectArea" class="left-subject-area">
-      👉 Select a course to see subjects
-    </div>
+    <div id="subjectArea" class="left-subject-area"></div>
+  </div>
 
-  </aside>
-
-  <!-- ========== RIGHT SIDE ========== -->
-  <main class="course-right">
+  <!-- RIGHT -->
+  <div class="course-right">
 
     <div class="player-box">
-      <iframe id="videoPlayer" allowfullscreen></iframe>
+      <iframe id="videoPlayer"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
     </div>
 
-    <h3 id="videoTitle">Select a video to start learning</h3>
+    <div id="videoTitle">Select a topic to start learning</div>
 
-  </main>
+  </div>
 
 </div>
 

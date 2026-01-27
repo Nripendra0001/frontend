@@ -225,12 +225,21 @@ function showTopics(subject){
 
 
 /* ========== STEP 3: PLAY VIDEO (RIGHT FIXED) ========== */
-function playVideo(id,el,title){
+function playVideo(id, el, title){
 
   document.querySelectorAll(".video-card")
     .forEach(v=>v.classList.remove("active"));
   el.classList.add("active");
 
-  player.src="https://www.youtube.com/embed/"+id+"?autoplay=1";
-  videoTitle.innerText=title;
+  player.src = "https://www.youtube.com/embed/" + id +
+    "?autoplay=1" +
+    "&mute=1" +               // autoplay allow
+    "&controls=1" +           // 🔥 controls back (sound + timeline)
+    "&rel=0" +
+    "&modestbranding=1" +
+    "&iv_load_policy=3" +
+    "&playsinline=1";
+
+  videoTitle.innerText = title;
 }
+
