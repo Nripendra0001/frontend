@@ -137,9 +137,130 @@ const courses = [
   ]
 
  }
+},
+
+//class 10 data
+{
+ name:"📘 Class 10 UP Board",
+ subjects:{
+
+ "Physics":[
+  { title:"प्रकाश परावर्तन और अपवर्तन (Light Reflection & Refraction) One Shot", id:"tTo5JX72pP8" },   // Hindi one shot by Doubtnut/UP Board style :contentReference[oaicite:1]{index=1}             // Hindi revision by Vidyakul (UP Board) :contentReference[oaicite:2]{index=2}
+  { title:"मानव नेत्र तथा रंगबिरंगा संसार (Human Eye & Colourful World)", id:"F10bUgwP2pk" },      // Hindi medium one shot by Doubtnut :contentReference[oaicite:3]{index=3}
+ { title:"Electricity – विद्युत (One Shot UP Board)", id:"1uv-8Ny0yT0" },
+             // Hindi/UP Board friendly electricity video (covers topic) :contentReference[oaicite:4]{index=4}
+ { title:"Magnetic Effects of Electric Current – विद्युत धारा के चुंबकीय प्रभाव (One Shot)", id:"S7hxqh5OHXA" },
+ // UP Board Hindi magnetic effects PYQs video :contentReference[oaicite:5]{index=5}
+{ title:"हमारा पर्यावरण (Our Environment) Full Chapter - Hindi One Shot", id:"yXhM3L57X_c" }
+                        // Hindi environment video (chapter fully explained) :contentReference[oaicite:6]{index=6}
+],
+                 // Our Environment animated full chapter :contentReference[oaicite:5]{index=5}
+
+
+  "Chemistry":[
+   
+  { title:"रासायनिक अभिक्रियाएँ एवं समीकरण (Chemical Reactions & Equations) One Shot", id:"V_ZtGdJ60y8" },
+  { title:"अम्ल, क्षार एवं लवण (Acids, Bases & Salts) Complete Hindi", id:"ZAbVpQoCFx8" },
+  { title:"धातु एवं अधातु (Metals and Non-metals) One Shot Hindi", id:"5lc1TRHcApo" },
+  { title:"कार्बन एवं उसके यौगिक (Carbon and Its Compounds) One Shot Hindi", id:"LMvu9vPjRGo" },
+ { title:"ऊर्जा के स्रोत (Full Chapter Hindi)", id:"sxQ9Ti_LLV8" }
+
+  ],
+
+  "Biology":[
+  
+  { title:"जैव प्रक्रम (Complete Hindi)", id:"pvHFrdNUq08" },
+  { title:" नियंत्रण एवं समन्वय (Hindi One Shot)", id:"FjFncnbFdrU" },
+  { title:" जीव जनन कैसे करते हैं (Hindi)", id:"_xlZdN_fu_Q" },
+  { title:"आनुवंशिकता एवं जैव विकास (Hindi One Shot)", id:"ZIaaotIRqjE" },
+
+  { title:" पर्यावरण एवं प्राकृतिक संसाधन (Hindi)", id:"yXhM3L57X_c" },
+  { title:" संसाधनों का प्रबंधन (Hindi)", id:"clNBkEUsM6g" }
+
+
+  ],
+
+"Mathematics":[
+
+  { title:"वास्तविक संख्याएँ (Real Numbers – Hindi)", id:"WuQdHUd5fOI" },
+
+
+  { title:"बहुपद (Polynomials) – Hindi One Shot (UP Board/NCERT)", id:"uGcYvwX2FPg" },
+
+
+ { title:"दो चर वाले रैखिक समीकरण (Alternate Hindi)", id:"QzEOE7ibYlE" },
+
+{ title:"द्विघात समीकरण (Quadratic Equations) – Hindi One Shot", id:"3tkMALdrQw4" },
+{ title:"समांतर श्रेणियाँ (Arithmetic Progressions) – Hindi One Shot", id:"xLlLKChIdzA" },
+
+
+ { title:"त्रिकोणमिति (Trigonometry) – Hindi One Shot", id:"OaBcBbf7QE0" },
+
+  
+  { title:"निर्देशांक ज्यामिति (Coordinate Geometry) – Hindi One Shot", id:"X_oT03rurgM" },
+ 
+
+
+ 
+
+  { title:"वृत्त (Circles) – Full Chapter Hindi One Shot", id:"SRDmgavTpbM" },
+
+
+{ title:"सांख्यिकी (Statistics) – Full Chapter Hindi One Shot", id:"AoghUKIWLSo" },
+
+  
+
+
+
+{ title:"प्रायिकता (Probability) – One Shot Hindi (Gyanoday)", id:"F_ZaDk1sNdk" },
+
+
+],
+
+
+
+  "Hindi":[
+    { title:"गद्य खंड (पूरा अध्याय)", id:"Gd1kTgrTWFs" },
+    { title:"पद्य खंड (कविता व्याख्या)", id:"zxxaCRq3ajg" },
+    { title:"व्याकरण – संधि व समास", id:"FvGzZouy8To" },
+    { title:"व्याकरण – रस व अलंकार", id:"FvGzZouy8To" },
+    { title:"पत्र लेखन", id:"FvGzZouy8To" },
+    { title:"निबंध लेखन", id:"FvGzZouy8To" },
+    { title:"अपठित बोध", id:"FvGzZouy8To" }
+  ],
+
+  "English":[
+    { title:"First Flight – Chapter Explanation", id:"tGzYV44NsWk" },
+    { title:"Footprints Without Feet – Chapter", id:"5wYT3-Ub8bo" },
+    { title:"Grammar – Tenses", id:"ANAgwnKebLw" },
+    { title:"Active & Passive Voice", id:"H-Mgcufuz8o" },
+    { title:"Direct & Indirect Speech", id:"5wYT3-Ub8bo" },
+    { title:"Writing Section", id:"x5MfWwEEFvw" }
+  ],
+
+  "Social Science":[
+    { title:"History – Nationalism in India", id:"syLSKUkDO_w" },
+    { title:"History – Making of Global World", id:"syLSKUkDO_w" },
+    { title:"Civics – Power Sharing", id:"65YKKEXOZYI" },
+    { title:"Civics – Democracy & Diversity", id:"65YKKEXOZYI" },
+    { title:"Geography – Resources & Development", id:"MnJqIRfceEU" },
+    { title:"Geography – Agriculture", id:"MnJqIRfceEU" },
+    { title:"Economics – Development", id:"owDZcbIuZ1A" },
+    { title:"Economics – Sectors of Economy", id:"owDZcbIuZ1A" }
+  ]
+
+ }
 }
 
+
+
 ];   // ✅ courses array properly closed
+
+
+
+/* ================= CLASS 10 UP BOARD ================= */
+
+
 
 
 /* ========= DOM ========= */
