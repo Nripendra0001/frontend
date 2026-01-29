@@ -215,3 +215,103 @@ body{
     border-radius:10px;
   }
 }
+/* ===============================
+   📱 MOBILE RESPONSIVE DESIGN
+================================ */
+@media (max-width: 900px){
+
+  .course-app{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  /* LEFT PANEL → TOP BAR */
+  .course-left{
+    border-right: none;
+    border-bottom: 1px solid #1e293b;
+    padding: 12px;
+  }
+
+  .course-left h2{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #courseButtons{
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+
+  #courseButtons::-webkit-scrollbar{
+    height: 6px;
+  }
+
+  #subjectArea{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .board-tag{
+    font-size: 13px;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* RIGHT SIDE */
+  .course-right{
+    padding: 10px;
+  }
+
+  .player-box{
+    max-width: 100%;
+    border-radius: 14px;
+  }
+
+  .player-box iframe{
+    border-radius: 14px;
+  }
+
+  #videoTitle{
+    font-size: 16px;
+    padding: 10px 6px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  /* Buttons & topics bigger */
+  .course-btn{
+    font-size: 14px;
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .topic-btn, .subject-btn{
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+/* EXTRA SMALL PHONES */
+@media (max-width: 480px){
+
+  .course-left h2{
+    font-size: 18px;
+  }
+
+  #videoTitle{
+    font-size: 15px;
+  }
+
+  .topic-btn, .subject-btn{
+    font-size: 13px;
+    padding: 9px;
+  }
+}
+
