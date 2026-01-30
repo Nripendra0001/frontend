@@ -8,9 +8,9 @@ const courses = [
  name:"🚓 UP Police",
  subjects:{
  "Maths":[
-    { "title":"Number System", "id":"wllFv97OcOE" },
-    { "title":"Simplification", "id":"wllFv97OcOE" },
-    { "title":"HCF & LCM", "id":"wllFv97OcOE" },
+    { "title":"Number System by SarkariNext", "id":"wllFv97OcOE" },
+    { "title":"Simplification by SarkariNext", "id":"wllFv97OcOE" },
+    { "title":"HCF & LCM by SarkariNext", "id":"wllFv97OcOE" },
     { "title":"Percentage", "id":"wllFv97OcOE" },
     { "title":"Profit & Loss", "id":"wllFv97OcOE" },
     { "title":"Simple Interest", "id":"wllFv97OcOE" },
@@ -145,13 +145,13 @@ const courses = [
  subjects:{
 
  "Physics":[
-  { title:"प्रकाश परावर्तन और अपवर्तन (Light Reflection & Refraction) One Shot", id:"tTo5JX72pP8" },   // Hindi one shot by Doubtnut/UP Board style :contentReference[oaicite:1]{index=1}             // Hindi revision by Vidyakul (UP Board) :contentReference[oaicite:2]{index=2}
-  { title:"मानव नेत्र तथा रंगबिरंगा संसार (Human Eye & Colourful World)", id:"F10bUgwP2pk" },      // Hindi medium one shot by Doubtnut :contentReference[oaicite:3]{index=3}
- { title:"Electricity – विद्युत (One Shot UP Board)", id:"1uv-8Ny0yT0" },
+  { title:"प्रकाश परावर्तन और अपवर्तन (Light Reflection & Refraction) One Shot ~by SarkariNext", id:"tTo5JX72pP8" },   // Hindi one shot by Doubtnut/UP Board style :contentReference[oaicite:1]{index=1}             // Hindi revision by Vidyakul (UP Board) :contentReference[oaicite:2]{index=2}
+  { title:"मानव नेत्र तथा रंगबिरंगा संसार (Human Eye & Colourful World) ~by SarkariNext", id:"F10bUgwP2pk" },      // Hindi medium one shot by Doubtnut :contentReference[oaicite:3]{index=3}
+ { title:"Electricity – विद्युत (One Shot UP Board) ~by SarkariNext", id:"1uv-8Ny0yT0" },
              // Hindi/UP Board friendly electricity video (covers topic) :contentReference[oaicite:4]{index=4}
- { title:"Magnetic Effects of Electric Current – विद्युत धारा के चुंबकीय प्रभाव (One Shot)", id:"S7hxqh5OHXA" },
+ { title:"Magnetic Effects of Electric Current – विद्युत धारा के चुंबकीय प्रभाव (One Shot) ~by SarkariNext", id:"S7hxqh5OHXA" },
  // UP Board Hindi magnetic effects PYQs video :contentReference[oaicite:5]{index=5}
-{ title:"हमारा पर्यावरण (Our Environment) Full Chapter - Hindi One Shot", id:"yXhM3L57X_c" }
+{ title:"हमारा पर्यावरण (Our Environment) Full Chapter - Hindi One Shot ~by SarkariNext", id:"yXhM3L57X_c" }
                         // Hindi environment video (chapter fully explained) :contentReference[oaicite:6]{index=6}
 ],
                  // Our Environment animated full chapter :contentReference[oaicite:5]{index=5}
@@ -159,60 +159,60 @@ const courses = [
 
   "Chemistry":[
    
-  { title:"रासायनिक अभिक्रियाएँ एवं समीकरण (Chemical Reactions & Equations) One Shot", id:"V_ZtGdJ60y8" },
-  { title:"अम्ल, क्षार एवं लवण (Acids, Bases & Salts) Complete Hindi", id:"ZAbVpQoCFx8" },
-  { title:"धातु एवं अधातु (Metals and Non-metals) One Shot Hindi", id:"5lc1TRHcApo" },
-  { title:"कार्बन एवं उसके यौगिक (Carbon and Its Compounds) One Shot Hindi", id:"LMvu9vPjRGo" },
- { title:"ऊर्जा के स्रोत (Full Chapter Hindi)", id:"sxQ9Ti_LLV8" }
+  { title:"रासायनिक अभिक्रियाएँ एवं समीकरण (Chemical Reactions & Equations) One Shot ~by SarkariNext", id:"V_ZtGdJ60y8" },
+  { title:"अम्ल, क्षार एवं लवण (Acids, Bases & Salts) Complete Hindi ~by SarkariNext", id:"ZAbVpQoCFx8" },
+  { title:"धातु एवं अधातु (Metals and Non-metals) One Shot Hindi ~by SarkariNext", id:"5lc1TRHcApo" },
+  { title:"कार्बन एवं उसके यौगिक (Carbon and Its Compounds) One Shot Hindi ~by SarkariNext", id:"LMvu9vPjRGo" },
+ { title:"ऊर्जा के स्रोत (Full Chapter Hindi) ~by SarkariNext", id:"sxQ9Ti_LLV8" }
 
   ],
 
   "Biology":[
   
-  { title:"जैव प्रक्रम (Complete Hindi)", id:"pvHFrdNUq08" },
-  { title:" नियंत्रण एवं समन्वय (Hindi One Shot)", id:"FjFncnbFdrU" },
-  { title:" जीव जनन कैसे करते हैं (Hindi)", id:"_xlZdN_fu_Q" },
-  { title:"आनुवंशिकता एवं जैव विकास (Hindi One Shot)", id:"ZIaaotIRqjE" },
+  { title:"जैव प्रक्रम (Complete Hindi) ~by SarkariNext", id:"pvHFrdNUq08" },
+  { title:" नियंत्रण एवं समन्वय (Hindi One Shot) ~by SarkariNext", id:"FjFncnbFdrU" },
+  { title:" जीव जनन कैसे करते हैं (Hindi) ~by SarkariNext", id:"_xlZdN_fu_Q" },
+  { title:"आनुवंशिकता एवं जैव विकास (Hindi One Shot) ~by SarkariNext", id:"ZIaaotIRqjE" },
 
-  { title:" पर्यावरण एवं प्राकृतिक संसाधन (Hindi)", id:"yXhM3L57X_c" },
-  { title:" संसाधनों का प्रबंधन (Hindi)", id:"clNBkEUsM6g" }
+  { title:" पर्यावरण एवं प्राकृतिक संसाधन (Hindi) ~by SarkariNext", id:"yXhM3L57X_c" },
+  { title:" संसाधनों का प्रबंधन (Hindi) ~by SarkariNext", id:"clNBkEUsM6g" }
 
 
   ],
 
 "Mathematics":[
 
-  { title:"वास्तविक संख्याएँ (Real Numbers – Hindi)", id:"WuQdHUd5fOI" },
+  { title:"वास्तविक संख्याएँ (Real Numbers – Hindi) ~by SarkariNext", id:"WuQdHUd5fOI" },
 
 
-  { title:"बहुपद (Polynomials) – Hindi One Shot (UP Board/NCERT)", id:"uGcYvwX2FPg" },
+  { title:"बहुपद (Polynomials) – Hindi One Shot (UP Board/NCERT) ~by SarkariNext", id:"uGcYvwX2FPg" },
 
 
- { title:"दो चर वाले रैखिक समीकरण (Alternate Hindi)", id:"QzEOE7ibYlE" },
+ { title:"दो चर वाले रैखिक समीकरण (Alternate Hindi) ~by SarkariNext", id:"QzEOE7ibYlE" },
 
-{ title:"द्विघात समीकरण (Quadratic Equations) – Hindi One Shot", id:"3tkMALdrQw4" },
-{ title:"समांतर श्रेणियाँ (Arithmetic Progressions) – Hindi One Shot", id:"xLlLKChIdzA" },
+{ title:"द्विघात समीकरण (Quadratic Equations) – Hindi One Shot ~by SarkariNext", id:"3tkMALdrQw4" },
+{ title:"समांतर श्रेणियाँ (Arithmetic Progressions) – Hindi One Shot ~by SarkariNext", id:"xLlLKChIdzA" },
 
 
- { title:"त्रिकोणमिति (Trigonometry) – Hindi One Shot", id:"OaBcBbf7QE0" },
+ { title:"त्रिकोणमिति (Trigonometry) – Hindi One Shot ~by SarkariNext", id:"OaBcBbf7QE0" },
 
   
-  { title:"निर्देशांक ज्यामिति (Coordinate Geometry) – Hindi One Shot", id:"X_oT03rurgM" },
+  { title:"निर्देशांक ज्यामिति (Coordinate Geometry) – Hindi One Shot ~by SarkariNext", id:"X_oT03rurgM" },
  
 
 
  
 
-  { title:"वृत्त (Circles) – Full Chapter Hindi One Shot", id:"SRDmgavTpbM" },
+  { title:"वृत्त (Circles) – Full Chapter Hindi One Shot ~by SarkariNext", id:"SRDmgavTpbM" },
 
 
-{ title:"सांख्यिकी (Statistics) – Full Chapter Hindi One Shot", id:"AoghUKIWLSo" },
+{ title:"सांख्यिकी (Statistics) – Full Chapter Hindi One Shot ~by SarkariNext", id:"AoghUKIWLSo" },
 
   
 
 
 
-{ title:"प्रायिकता (Probability) – One Shot Hindi (Gyanoday)", id:"F_ZaDk1sNdk" },
+{ title:"प्रायिकता (Probability) – One Shot Hindi (Gyanoday) ~by SarkariNext", id:"F_ZaDk1sNdk" },
 
 
 ],
@@ -225,43 +225,43 @@ const courses = [
  subjects:{
 
   "Physics":[
-    { title:"गति (Motion) – Class 9 Physics Hindi One Shot (UP Board)", id:"ieQXzoVQSEo" },
-   { title:"बल तथा गति के नियम (Force & Laws of Motion) – Class 9 Physics Hindi Medium", id:"PZBIgTh9XeY" },
+    { title:"गति (Motion) – Class 9 Physics Hindi One Shot (UP Board) by ~SarkariNext", id:"ieQXzoVQSEo" },
+   { title:"बल तथा गति के नियम (Force & Laws of Motion) – Class 9 Physics Hindi Medium by ~SarkariNext", id:"PZBIgTh9XeY" },
 
-    { title:"कार्य तथा ऊर्जा (Work & Energy)", id:"PZBIgTh9XeY" },
-    { title:"गुरुत्वाकर्षण (Gravitation)", id:"OAj-lOssNx4" },
-    { title:"ध्वनि (Sound) – Full Chapter Hindi", id:"-_I1O89HGpo" }
+    { title:"कार्य तथा ऊर्जा (Work & Energy) by ~SarkariNext", id:"PZBIgTh9XeY" },
+    { title:"गुरुत्वाकर्षण (Gravitation) by ~SarkariNext", id:"OAj-lOssNx4" },
+    { title:"ध्वनि (Sound) – Full Chapter Hindi by ~SarkariNext", id:"-_I1O89HGpo" }
   ],
 
   "Chemistry":[
-    { title:"हमारे आस-पास के पदार्थ ", id:"ryPLYdOTtaI" },
-    { title:"क्या हमारे आस-पास के पदार्थ शुद्ध हैं?", id:"2pFvCHjvwLM" },
-    { title:"परमाणु एवं अणु ", id:"REkOZeW5nfs" },
-    { title:"संरचना के परमाणु ", id:"2POFlhrKWjM" },
-    { title:"जीवन के रासायनिक आधार ", id:"o8fAmwuryWA" },
+    { title:"हमारे आस-पास के पदार्थ by ~SarkariNext ", id:"ryPLYdOTtaI" },
+    { title:"क्या हमारे आस-पास के पदार्थ शुद्ध हैं? by ~SarkariNext", id:"2pFvCHjvwLM" },
+    { title:"परमाणु एवं अणु by ~SarkariNext ", id:"REkOZeW5nfs" },
+    { title:"संरचना के परमाणु by ~SarkariNext", id:"2POFlhrKWjM" },
+    { title:"जीवन के रासायनिक आधार by ~SarkariNext ", id:"o8fAmwuryWA" },
    
   ],
 
   "Biology":[
-    { title:"जीवन की मौलिक इकाई (The Fundamental Unit of Life)", id:"gGvs6vY9dcc" },
-    { title:"ऊतक (Tissues)", id:"ow8UycM8WRA" },
-    { title:"जीवन की विविधता ", id:"iCsW0uleiM0" },
-     {title:"खाद्य संसाधनों में सुधार",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=2"},
-    {title:"प्राकृतिक संपदा",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=1"}
+    { title:"जीवन की मौलिक इकाई (The Fundamental Unit of Life) by ~SarkariNext", id:"gGvs6vY9dcc" },
+    { title:"ऊतक (Tissues) by ~SarkariNext", id:"ow8UycM8WRA" },
+    { title:"जीवन की विविधता by ~SarkariNext ", id:"iCsW0uleiM0" },
+     {title:"खाद्य संसाधनों में सुधार by ~SarkariNext",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=2"},
+    {title:"प्राकृतिक संपदा by ~SarkariNext",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=1"}
   ],
 
   "Mathematics":[
-    { title:"संख्या पद्धति ", id:"EfmACFO28TI" },
-    { title:"बहुपद ", id:"PLq20sSZoEi13PGrIbqCDtMDnGoMNELC7i" },
-    { title:"दो चर वाले रैखिक समीकरण ", id:"GYvgjGF_dPY" },
-    { title:"रेखाएँ और कोण ", id:"GYvgjGF_dPY" },
-    { title:"त्रिभुज ", id:"s_3UFophI-c" },
-    { title:"चतुर्भुज ", id:"4yYrugGHIzc" },
-    { title:"वृत्त ", id:"kP_rfPAm1J0" },
-    { title:"हेरॉन का सूत्र ", id:"qsnbYvH5zN0" },
-    { title:"पृष्ठीय क्षेत्रफल एवं आयतन ", id:"pWsJb4MjaRo" },
-    { title:"सांख्यिकी ", id:"Q50Ws1pQess" },
-    { title:"प्रायिकता ", id:"NNet2mL7SZI" }
+    { title:"संख्या पद्धति by ~SarkariNext ", id:"EfmACFO28TI" },
+    { title:"बहुपद by ~SarkariNext", id:"PLq20sSZoEi13PGrIbqCDtMDnGoMNELC7i" },
+    { title:"दो चर वाले रैखिक समीकरण by ~SarkariNext", id:"GYvgjGF_dPY" },
+    { title:"रेखाएँ और कोण by ~SarkariNext", id:"GYvgjGF_dPY" },
+    { title:"त्रिभुज by ~SarkariNext", id:"s_3UFophI-c" },
+    { title:"चतुर्भुज by ~SarkariNext ", id:"4yYrugGHIzc" },
+    { title:"वृत्त by ~SarkariNext", id:"kP_rfPAm1J0" },
+    { title:"हेरॉन का सूत्र by ~SarkariNext ", id:"qsnbYvH5zN0" },
+    { title:"पृष्ठीय क्षेत्रफल एवं आयतन by ~SarkariNext", id:"pWsJb4MjaRo" },
+    { title:"सांख्यिकी by ~SarkariNext ", id:"Q50Ws1pQess" },
+    { title:"प्रायिकता by ~SarkariNext", id:"NNet2mL7SZI" }
   ],
  }
 }
