@@ -346,4 +346,27 @@ body{
 ::-webkit-scrollbar-thumb:hover{
   background:#00a8e1;
 }
+/* =====================================
+   📱 MOBILE ONLY – VIDEO TOP FIX
+   (DESKTOP SAFE)
+===================================== */
+
+@media (max-width: 900px){
+
+  .course-app{
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* 🎬 VIDEO FIRST */
+  .course-right{
+    order:1;
+  }
+
+  /* 📚 CONTENT BELOW VIDEO */
+  .course-left{
+    order:2;
+  }
+}
+
 
