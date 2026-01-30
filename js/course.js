@@ -250,8 +250,54 @@ const courses = [
   ]
 
  }
-}
+},
 
+// ================= CLASS 9 UP BOARD DATA =================
+{
+ name:"📗 Class 9 UP Board",
+ subjects:{
+
+  "Physics":[
+    { title:"गति (Motion) – Class 9 Physics Hindi One Shot (UP Board)", id:"ieQXzoVQSEo" },
+   { title:"बल तथा गति के नियम (Force & Laws of Motion) – Class 9 Physics Hindi Medium", id:"PZBIgTh9XeY" },
+
+    { title:"कार्य तथा ऊर्जा (Work & Energy)", id:"PZBIgTh9XeY" },
+    { title:"गुरुत्वाकर्षण (Gravitation)", id:"OAj-lOssNx4" },
+    { title:"ध्वनि (Sound) – Full Chapter Hindi", id:"-_I1O89HGpo" }
+  ],
+
+  "Chemistry":[
+    { title:"हमारे आस-पास के पदार्थ ", id:"ryPLYdOTtaI" },
+    { title:"क्या हमारे आस-पास के पदार्थ शुद्ध हैं?", id:"2pFvCHjvwLM" },
+    { title:"परमाणु एवं अणु ", id:"REkOZeW5nfs" },
+    { title:"संरचना के परमाणु ", id:"2POFlhrKWjM" },
+    { title:"जीवन के रासायनिक आधार ", id:"o8fAmwuryWA" },
+   
+  ],
+
+  "Biology":[
+    { title:"जीवन की मौलिक इकाई (The Fundamental Unit of Life)", id:"gGvs6vY9dcc" },
+    { title:"ऊतक (Tissues)", id:"ow8UycM8WRA" },
+    { title:"जीवन की विविधता (Diversity in Living Organisms)", id:"iCsW0uleiM0" },
+     {title:"खाद्य संसाधनों में सुधार",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=2"},
+    {title:"प्राकृतिक संपदा",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=1"}
+  ],
+
+  "Mathematics":[
+    { title:"संख्या पद्धति ", id:"EfmACFO28TI" },
+    { title:"बहुपद ", id:"VIDEO_ID" },
+    { title:"दो चर वाले रैखिक समीकरण ", id:"GYvgjGF_dPY" },
+    { title:"रेखाएँ और कोण ", id:"GYvgjGF_dPY" },
+    { title:"त्रिभुज ", id:"s_3UFophI-c" },
+    { title:"चतुर्भुज ", id:"4yYrugGHIzc" },
+    { title:"वृत्त ", id:"kP_rfPAm1J0" },
+    { title:"हेरॉन का सूत्र ", id:"eM-D7b419h0" },
+    { title:"पृष्ठीय क्षेत्रफल एवं आयतन ", id:"pWsJb4MjaRo" },
+    { title:"सांख्यिकी ", id:"Q50Ws1pQess" },
+    { title:"प्रायिकता ", id:"NNet2mL7SZI" }
+  ],
+ }
+}
 
 
 ];   // ✅ courses array properly closed
@@ -363,5 +409,3 @@ function playVideo(id, el, title){
 
   videoTitle.innerText = title;
 }
-
-
