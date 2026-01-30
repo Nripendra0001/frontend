@@ -6,44 +6,53 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="./css/course.css">
 </head>
+
 <body>
 
 <div class="course-app">
 
-  <!-- LEFT -->
+  <!-- LEFT PANEL -->
   <div class="course-left">
     <h2>⚡ SarkariNext</h2>
 
-    <!-- ===== COURSE CATEGORY BUTTONS ===== -->
+    <!-- COURSE CATEGORY BUTTONS -->
     <div id="courseButtons"></div>
 
-    <!-- ===== SUBJECTS / TOPICS AREA ===== -->
+    <!-- SUBJECTS / TOPICS -->
     <div id="subjectArea" class="left-subject-area"></div>
 
-    <!-- ===== CLASS 10 UP BOARD TAG ===== -->
+    <!-- BOARD TAG -->
     <div class="board-tag">
       📘 Class 10 UP Board Available
     </div>
   </div>
 
-  <!-- RIGHT -->
+  <!-- RIGHT PANEL -->
   <div class="course-right">
 
+    <!-- VIDEO PLAYER -->
     <div class="player-box">
-      <iframe id="videoPlayer"
-        allow="autoplay; encrypted-media"
+      <iframe
+        id="videoPlayer"
+        src=""
+        title="SarkariNext Video Player"
+        allow="autoplay; encrypted-media; fullscreen"
         allowfullscreen>
       </iframe>
     </div>
 
+   
+
+    <!-- VIDEO TITLE -->
     <div id="videoTitle">Select a topic to start learning</div>
 
   </div>
 
 </div>
+
+
 
 <script src="./js/course.js"></script>
 </body>

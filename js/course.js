@@ -285,13 +285,13 @@ const courses = [
 
   "Mathematics":[
     { title:"संख्या पद्धति ", id:"EfmACFO28TI" },
-    { title:"बहुपद ", id:"VIDEO_ID" },
+    { title:"बहुपद ", id:"PLq20sSZoEi13PGrIbqCDtMDnGoMNELC7i" },
     { title:"दो चर वाले रैखिक समीकरण ", id:"GYvgjGF_dPY" },
     { title:"रेखाएँ और कोण ", id:"GYvgjGF_dPY" },
     { title:"त्रिभुज ", id:"s_3UFophI-c" },
     { title:"चतुर्भुज ", id:"4yYrugGHIzc" },
     { title:"वृत्त ", id:"kP_rfPAm1J0" },
-    { title:"हेरॉन का सूत्र ", id:"eM-D7b419h0" },
+    { title:"हेरॉन का सूत्र ", id:"qsnbYvH5zN0" },
     { title:"पृष्ठीय क्षेत्रफल एवं आयतन ", id:"pWsJb4MjaRo" },
     { title:"सांख्यिकी ", id:"Q50Ws1pQess" },
     { title:"प्रायिकता ", id:"NNet2mL7SZI" }
