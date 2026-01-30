@@ -507,6 +507,96 @@ border-radius:10px;
     height:56.25vw !important;
   }
 }
+/* =====================================
+   📱 CLEAN MOBILE APP LAYOUT
+   (Desktop untouched)
+===================================== */
+
+@media (max-width: 900px){
+
+  /* MAIN STACK */
+  .course-app{
+    display:flex !important;
+    flex-direction:column;
+  }
+
+  /* VIDEO SECTION */
+  .course-right{
+    padding:0 !important;
+    margin:0 !important;
+    background:#000;
+  }
+
+  .video-area{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+  }
+
+  /* EDGE TO EDGE VIDEO */
+  .player-box{
+    width:100vw;
+    max-width:100vw;
+    margin:0;
+    border:none;
+    border-radius:0;
+    box-shadow:none;
+  }
+
+  .player-box iframe{
+    display:block;
+    width:100vw;
+    height:56.25vw; /* 16:9 */
+    border:none;
+  }
+
+  /* CONTROLS – STACKED & CENTERED */
+  .video-controls{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:12px;
+    background:#000;
+  }
+
+  .video-controls button{
+    width:100%;
+    padding:12px;
+    font-size:15px;
+    font-weight:700;
+    border-radius:12px;
+    background:#020617;
+    border:1px solid #1f2933;
+    color:#ffb84d;
+  }
+
+  /* TITLE */
+  #videoTitle{
+    padding:10px 12px;
+    font-size:15px;
+    text-align:left;
+    background:#000;
+  }
+
+  /* CONTENT BELOW VIDEO */
+  .course-left{
+    padding:12px;
+    border-top:1px solid #1f2933;
+  }
+
+  .left-subject-area{
+    margin-top:8px;
+  }
+}
+
+/* EXTRA SMALL PHONES */
+@media (max-width:480px){
+  .video-controls button{
+    font-size:14px;
+    padding:11px;
+  }
+}
+
 
 
 
