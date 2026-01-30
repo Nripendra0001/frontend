@@ -375,4 +375,19 @@ function playVideo(id, el, title){
     "&playsinline=1";
 
   videoTitle.innerText = title;
+  function playVideo(id, title){
+  const player = document.getElementById("videoPlayer");
+
+  player.src =
+    "https://www.youtube.com/embed/" + id +
+    "?autoplay=1" +
+    "&mute=1" +          // 🔥 MOBILE autoplay ke liye MUST
+    "&playsinline=1" +
+    "&controls=0" +
+    "&modestbranding=1" +
+    "&rel=0";
+
+  document.getElementById("videoTitle").innerText = title;
+}
+
 }
