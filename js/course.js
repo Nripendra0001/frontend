@@ -216,39 +216,6 @@ const courses = [
 
 
 ],
-
-
-
-  "Hindi":[
-    { title:"गद्य खंड (पूरा अध्याय)", id:"Gd1kTgrTWFs" },
-    { title:"पद्य खंड (कविता व्याख्या)", id:"zxxaCRq3ajg" },
-    { title:"व्याकरण – संधि व समास", id:"FvGzZouy8To" },
-    { title:"व्याकरण – रस व अलंकार", id:"FvGzZouy8To" },
-    { title:"पत्र लेखन", id:"FvGzZouy8To" },
-    { title:"निबंध लेखन", id:"FvGzZouy8To" },
-    { title:"अपठित बोध", id:"FvGzZouy8To" }
-  ],
-
-  "English":[
-    { title:"First Flight – Chapter Explanation", id:"tGzYV44NsWk" },
-    { title:"Footprints Without Feet – Chapter", id:"5wYT3-Ub8bo" },
-    { title:"Grammar – Tenses", id:"ANAgwnKebLw" },
-    { title:"Active & Passive Voice", id:"H-Mgcufuz8o" },
-    { title:"Direct & Indirect Speech", id:"5wYT3-Ub8bo" },
-    { title:"Writing Section", id:"x5MfWwEEFvw" }
-  ],
-
-  "Social Science":[
-    { title:"History – Nationalism in India", id:"syLSKUkDO_w" },
-    { title:"History – Making of Global World", id:"syLSKUkDO_w" },
-    { title:"Civics – Power Sharing", id:"65YKKEXOZYI" },
-    { title:"Civics – Democracy & Diversity", id:"65YKKEXOZYI" },
-    { title:"Geography – Resources & Development", id:"MnJqIRfceEU" },
-    { title:"Geography – Agriculture", id:"MnJqIRfceEU" },
-    { title:"Economics – Development", id:"owDZcbIuZ1A" },
-    { title:"Economics – Sectors of Economy", id:"owDZcbIuZ1A" }
-  ]
-
  }
 },
 
@@ -278,7 +245,7 @@ const courses = [
   "Biology":[
     { title:"जीवन की मौलिक इकाई (The Fundamental Unit of Life)", id:"gGvs6vY9dcc" },
     { title:"ऊतक (Tissues)", id:"ow8UycM8WRA" },
-    { title:"जीवन की विविधता (Diversity in Living Organisms)", id:"iCsW0uleiM0" },
+    { title:"जीवन की विविधता ", id:"iCsW0uleiM0" },
      {title:"खाद्य संसाधनों में सुधार",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=2"},
     {title:"प्राकृतिक संपदा",id:"PLEz1H1DNUppNpzPXrfsTzSzo8wzgEQkgJ&index=1"}
   ],

@@ -416,5 +416,45 @@ body{
     z-index:1;
   }
 }
+/* =====================================
+   🎬 VIDEO STAYS, TEXT SCROLLS
+   (DESKTOP + MOBILE SAFE)
+===================================== */
+
+/* DESKTOP + LAPTOP */
+.course-right{
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow:hidden;     /* video fixed rahe */
+}
+
+/* LEFT SIDE SCROLL ONLY */
+.course-left{
+  height:100vh;
+  overflow-y:auto;
+}
+
+/* MOBILE – same behavior (already app-like) */
+@media (max-width:900px){
+
+  .course-app{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .course-right{
+    position:sticky;
+    top:0;
+    z-index:100;
+    height:auto;
+  }
+
+  .course-left{
+    height:auto;
+    overflow-y:auto;
+  }
+}
+
 
 
