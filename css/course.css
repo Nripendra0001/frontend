@@ -476,6 +476,80 @@ body{
     z-index:5;
   }
 }
+/* ===============================
+   BLACK & WHITE UI ONLY
+   Layout untouched
+================================ */
+
+/* Body */
+body{
+  background:#000 !important;
+  color:#fff !important;
+}
+
+/* Panels */
+.course-left,
+.course-right{
+  background:#000 !important;
+  border-color:#333 !important;
+}
+
+/* Headings */
+.course-left h2{
+  color:#fff !important;
+}
+
+/* Buttons */
+.course-btn{
+  background:#000 !important;
+  border:1.5px solid #444 !important;
+  color:#fff !important;
+}
+
+.course-btn:hover{
+  border-color:#fff !important;
+}
+
+.course-btn.active{
+  border-color:#fff !important;
+  box-shadow:0 0 0 1px #fff !important;
+}
+
+/* Subject titles */
+.subject-title{
+  background:#000 !important;
+  border:1.5px solid #444 !important;
+  color:#fff !important;
+}
+
+/* Topic cards */
+.video-card{
+  background:#000 !important;
+  border:1.5px solid #444 !important;
+  color:#fff !important;
+}
+
+.video-card:hover{
+  border-color:#fff !important;
+}
+
+.video-card.active{
+  border-color:#fff !important;
+  box-shadow:0 0 0 1px #fff !important;
+}
+
+/* Video title */
+#videoTitle{
+  color:#fff !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb{
+  background:#444;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:#fff;
+}
 
 
 
