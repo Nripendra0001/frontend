@@ -550,6 +550,81 @@ body{
 ::-webkit-scrollbar-thumb:hover{
   background:#fff;
 }
+/* ===============================
+   WHITE UI + BLACK ELEMENTS
+   Layout untouched
+================================ */
+
+/* Body */
+body{
+  background:#ffffff !important;
+  color:#000 !important;
+}
+
+/* Panels */
+.course-left,
+.course-right{
+  background:#ffffff !important;
+  border-color:#e5e7eb !important;
+}
+
+/* Heading */
+.course-left h2{
+  color:#000 !important;
+}
+
+/* Buttons */
+.course-btn{
+  background:#ffffff !important;
+  border:1.5px solid #d1d5db !important;
+  color:#000 !important;
+}
+
+.course-btn:hover{
+  border-color:#000 !important;
+}
+
+.course-btn.active{
+  border-color:#000 !important;
+  box-shadow:0 0 0 1px #000 !important;
+}
+
+/* Subject titles */
+.subject-title{
+  background:#ffffff !important;
+  border:1.5px solid #d1d5db !important;
+  color:#000 !important;
+}
+
+/* Topic cards */
+.video-card{
+  background:#ffffff !important;
+  border:1.5px solid #d1d5db !important;
+  color:#000 !important;
+}
+
+.video-card:hover{
+  border-color:#000 !important;
+}
+
+.video-card.active{
+  border-color:#000 !important;
+  box-shadow:0 0 0 1px #000 !important;
+}
+
+/* Video title */
+#videoTitle{
+  color:#000 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb{
+  background:#cbd5f5;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:#000;
+}
+
 
 
 
