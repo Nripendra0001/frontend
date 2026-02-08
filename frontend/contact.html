@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact – SarkariNext</title>
-  <base href="./">
 
+  <meta name="description" content="Contact SarkariNext. Send feedback, suggestions, or collaboration requests." />
+  <meta name="robots" content="index, follow" />
 
-  <meta name="description" content="Contact SarkariNext. Send feedback, suggestions, or collaboration requests.">
-  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nripendra.online/contact.html" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
 
-  <link rel="canonical" href="https://nripendra.online/contact.html">
-  <link rel="icon" type="image/png" href="./favicon.png">
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/pages.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/pages.css" />
 </head>
 
 <body>
 
 <header class="pg-topbar">
   <div class="pg-brand">
-    <img src="./favicon.png" alt="SarkariNext Logo">
+    <img src="./favicon.png" alt="SarkariNext Logo" />
     <span>SarkariNext</span>
   </div>
   <button class="pg-back" onclick="history.back()">← Back</button>
@@ -29,31 +27,57 @@
 
 <main class="pg-wrap">
 
+  <!-- HERO -->
   <section class="pg-hero">
     <h1>Contact Us</h1>
     <p>
-      Suggestions, feedback, ya collaboration ke liye aap yahan message bhej sakte hain.
+      We genuinely value your feedback. If you have suggestions, questions, or collaboration ideas,
+      feel free to send us a message — we read every submission carefully.
     </p>
+
+    <div class="hero-badges">
+      <span>Fast Support</span>
+      <span>Student-First</span>
+      <span>Trusted Platform</span>
+    </div>
   </section>
 
+  <!-- CONTACT FORM CARD -->
   <section class="pg-card">
-    <h2>Send Message</h2>
-
-    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent (demo). Backend later connect kar dena.');">
-
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
-
-    <div class="note-box" style="margin-top:16px">
-      
-        <br><b>support@nripendra.online</b>
+    <div class="pg-card-head">
+      <h2>Send a Message</h2>
+      <p>
+        This form is currently for feedback collection only. Your message will not be stored in any database yet.
       </p>
     </div>
 
+    <form class="contact-form" id="contactForm">
+
+      <input class="pg-input" type="text" placeholder="Your Full Name" required />
+      <input class="pg-input" type="email" placeholder="Your Email Address" required />
+      <textarea class="pg-textarea" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <button class="pg-btn" type="submit">Send Message</button>
+
+      <!-- Success Message (No popup) -->
+      <div class="form-success" id="formSuccess">
+        ✅ Thank you! Your message has been received (demo). We’ll connect backend soon.
+      </div>
+    </form>
+
+  </section>
+
+  <!-- CONTACT INFO CARD -->
+  <section class="pg-card pg-note">
+    <h2>Prefer Email?</h2>
+    <p>
+      You can contact us directly anytime. We usually respond within 24–48 hours.
+    </p>
+
+    <div class="contact-info">
+      <p><b>Support:</b> support@nripendra.online</p>
+      <p><b>Gmail:</b> sarkarinext.help@gmail.com</p>
+    </div>
   </section>
 
 </main>
@@ -61,6 +85,26 @@
 <footer class="pg-footer">
   © 2026 SarkariNext • Contact Page
 </footer>
+
+<script>
+  const form = document.getElementById("contactForm");
+  const successBox = document.getElementById("formSuccess");
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    // Show success message inside page (no alert)
+    successBox.style.display = "block";
+
+    // Reset fields
+    form.reset();
+
+    // Auto hide after 4 seconds
+    setTimeout(() => {
+      successBox.style.display = "none";
+    }, 4000);
+  });
+</script>
 
 </body>
 </html>

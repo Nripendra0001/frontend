@@ -377,3 +377,173 @@ body{
   transform:scale(0.98);
   background:#ff9900;
 }
+/* ==========================================================
+   SARKARINEXT – RESPONSIVE FIX PACK (ALL DEVICES)
+   Paste this at the END of pages.css
+========================================================== */
+
+/* Prevent weird zoom on iPhone input */
+input, textarea, button, select{
+  font-size:16px;
+}
+
+/* Better image scaling */
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Fix long text overflow */
+h1, h2, h3, p, a, li{
+  word-wrap:break-word;
+  overflow-wrap:break-word;
+}
+
+/* =========================
+   SMALL PHONES (<= 420px)
+========================= */
+@media (max-width: 420px){
+
+  .pg-wrap{
+    padding:16px 12px 30px;
+  }
+
+  .pg-topbar{
+    padding:12px 12px;
+    gap:10px;
+  }
+
+  .pg-brand span{
+    font-size:16px;
+  }
+
+  .pg-brand img{
+    width:34px;
+    height:34px;
+    border-radius:12px;
+  }
+
+  .pg-back{
+    padding:9px 11px;
+    font-size:12px;
+    border-radius:12px;
+    white-space:nowrap;
+  }
+
+  .pg-hero{
+    padding:18px 14px;
+    border-radius:18px;
+  }
+
+  .pg-hero h1{
+    font-size:24px;
+    line-height:1.2;
+  }
+
+  .pg-hero p{
+    font-size:14px;
+    line-height:1.75;
+  }
+
+  .hero-badges span{
+    font-size:12px;
+    padding:7px 10px;
+  }
+
+  .pg-card{
+    padding:16px 14px;
+    border-radius:18px;
+  }
+
+  .pg-card-head h2{
+    font-size:18px;
+  }
+
+  .pg-card-head p{
+    font-size:13px;
+  }
+
+  /* Team Grid Fix */
+  .team-grid{
+    grid-template-columns:1fr !important;
+    gap:14px;
+  }
+
+  .team-card{
+    padding:15px;
+    border-radius:18px;
+  }
+
+  .team-photo img{
+    width:95px;
+    height:95px;
+    border-radius:18px;
+  }
+
+  .team-card h3{
+    font-size:16px;
+  }
+
+  .team-role{
+    font-size:12px;
+  }
+
+  .team-bio{
+    font-size:13px;
+  }
+
+  .team-links a{
+    width:100%;
+    text-align:center;
+    padding:10px 12px;
+  }
+
+  /* Buttons full width on mobile */
+  .pg-btn{
+    width:100%;
+    text-align:center;
+    padding:12px 14px;
+  }
+}
+
+/* =========================
+   TABLETS (<= 900px)
+========================= */
+@media (max-width: 900px){
+
+  .pg-wrap{
+    max-width:100%;
+  }
+
+  /* Team already set but forcing safe */
+  .team-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* =========================
+   BIG SCREENS (>= 1400px)
+========================= */
+@media (min-width: 1400px){
+
+  .pg-wrap{
+    max-width:1250px;
+  }
+
+  .pg-hero h1{
+    font-size:38px;
+  }
+}
+
+/* =========================
+   TOUCH OPTIMIZATION
+========================= */
+button, a{
+  -webkit-tap-highlight-color: transparent;
+}
+
+a, button{
+  touch-action: manipulation;
+}
+
