@@ -27,84 +27,38 @@
 
 <main class="pg-wrap">
 
-  <!-- HERO -->
+  <!-- HERO SECTION -->
   <section class="pg-hero">
     <h1>Contact Us</h1>
     <p>
-      We genuinely value your feedback. If you have suggestions, questions, or collaboration ideas,
-      feel free to send us a message — we read every submission carefully.
+      We value your feedback! Whether you have suggestions, inquiries, or collaboration proposals, feel free to reach out.
     </p>
-
-    <div class="hero-badges">
-      <span>Fast Support</span>
-      <span>Student-First</span>
-      <span>Trusted Platform</span>
-    </div>
   </section>
 
-  <!-- CONTACT FORM CARD -->
+  <!-- MESSAGE FORM SECTION -->
   <section class="pg-card">
-    <div class="pg-card-head">
-      <h2>Send a Message</h2>
-      <p>
-        This form is currently for feedback collection only. Your message will not be stored in any database yet.
-      </p>
-    </div>
+    <h2>Send Us a Message</h2>
 
-    <form class="contact-form" id="contactForm">
+    <!-- Contact Form -->
+    <form class="contact-form" action="javascript:void(0);">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
 
-      <input class="pg-input" type="text" placeholder="Your Full Name" required />
-      <input class="pg-input" type="email" placeholder="Your Email Address" required />
-      <textarea class="pg-textarea" rows="5" placeholder="Write your message here..." required></textarea>
-
-      <button class="pg-btn" type="submit">Send Message</button>
-
-      <!-- Success Message (No popup) -->
-      <div class="form-success" id="formSuccess">
-        ✅ Thank you! Your message has been received (demo). We’ll connect backend soon.
-      </div>
+      <button type="submit">Send Message</button>
     </form>
 
-  </section>
-
-  <!-- CONTACT INFO CARD -->
-  <section class="pg-card pg-note">
-    <h2>Prefer Email?</h2>
-    <p>
-      You can contact us directly anytime. We usually respond within 24–48 hours.
-    </p>
-
-    <div class="contact-info">
-      <p><b>Support:</b> support@nripendra.online</p>
-      <p><b>Gmail:</b> sarkarinext.help@gmail.com</p>
+    <div class="note-box" style="margin-top:16px">
+      <p>If you prefer to email us directly, reach out to: <b>support@nripendra.online</b></p>
     </div>
+
   </section>
 
 </main>
 
 <footer class="pg-footer">
-  © 2026 SarkariNext • Contact Page
+  © 2026 SarkariNext • All Rights Reserved • Contact Page
 </footer>
-
-<script>
-  const form = document.getElementById("contactForm");
-  const successBox = document.getElementById("formSuccess");
-
-  form.addEventListener("submit", function(e){
-    e.preventDefault();
-
-    // Show success message inside page (no alert)
-    successBox.style.display = "block";
-
-    // Reset fields
-    form.reset();
-
-    // Auto hide after 4 seconds
-    setTimeout(() => {
-      successBox.style.display = "none";
-    }, 4000);
-  });
-</script>
 
 </body>
 </html>
