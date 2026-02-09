@@ -503,7 +503,7 @@ function buildExamPath() {
       ${phase4}<br>
       • Only revision<br>
       • Formula + notes<br>
-      • Documents + physical check
+      • Documents + physical check one time 
     </div>
 
     <div class="student-note">
